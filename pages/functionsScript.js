@@ -10,5 +10,5 @@ btn.addEventListener("click", function() {
         ],
         easing: "easeInOutQuad"
     });
-    setTimeout(function() {location.href = "../NeverLine.html";}, 550);
+    setTimeout(function() {location.href = "../index.html";}, 550);
 })
