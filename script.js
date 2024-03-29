@@ -6,7 +6,7 @@ btnDownload.addEventListener("click", function() {
     animeAndRedirect(btnDownload, "https://t.me/NeverLineClient");
 });
 btnChangeLog.addEventListener("click", function() {
-    animeAndRedirect(btnChangeLog, "pages/change-log.html");
+    animeAndRedirect(btnChangeLog, "pages/Сhange-log.html");
 });
 btnFunctions.addEventListener("click", function() {
     animeAndRedirect(btnFunctions, "pages/functions.html");
