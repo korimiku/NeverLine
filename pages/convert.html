@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="convertCSS.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script> 
+    <!--jsdelivr-->
+<link href="https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.css" rel="stylesheet">
+<!--or github raw-->
+<link href="https://raw.githubusercontent.com/repalash/gilroy-free-webfont/fonts/Gilroy-Extrabold.css" rel="stylesheet">
     <title>Coneverter</title>
 </head>
 <body>
@@ -15,5 +19,26 @@
                 <button class="btn-exit">Exit</button>
             </div>
         </header>
+<p>Thanks MEFRREEX</p>
+<div class="main">
+<div class="link-block">
+    <a class="about" href="https://discord.gg/PHJZYYawVV" target="_blank">Сервер моего друга</a>
+</div>
+
+<br>
+
+<div class="input-box">
+    <input class="input" id="input" type="text" placeholder="Введите текст...">
+    <br>
+    <button class="button" onclick="processConvert()">Конвертировать</button>
+</div>
+
+<br>
+
+<div class="result-box" onclick="processCopy()">
+    <span class="result" id="result">Тут будет отображаться преобразованный текст</span>
+</div>
+<span class="copied" id="copied"></span>
+</div>
 </body>
 </html>

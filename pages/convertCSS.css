@@ -1,3 +1,8 @@
+
+
+
+
+
 .hot-bar {
     height: 60px;
     width: 200px;
@@ -6,7 +11,7 @@
     justify-content: center;
 }
 
-button {
+.btn-exit {
     background: transparent;
 	border: solid;
     border-radius: 10px;
@@ -22,7 +27,7 @@ button {
 }
 
 
-button:hover {
+.btn-exit:hover {
     background: transparent;
 	border: solid;
     border-radius: 10px;
@@ -35,4 +40,172 @@ button:hover {
     text-decoration: none;
     width: 60px;
     height: 60px;
+}
+
+
+
+
+body {
+    background: linear-gradient(black, #7e0000);
+    color: #d00000;
+    height: 100vh;
+    font: 15px Gilroy, Arial, Helvetica, sans-serif;
+}
+
+.main {
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+::selection {
+    background-color: #bd2222;
+    color: #fff;
+}
+
+A {
+    color: #bd2222; /* Цвет ссылок */
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+    text-decoration: none;
+}
+A:visited {
+    color: #bd2222; /* Цвет посещенных ссылок */
+}
+A:active {
+    color: #bd2222; /* Цвет активных ссылок */
+}
+A:hover {
+    border-radius: 2px;
+    color: #bd2222; /* Цвет активных ссылок */
+}
+
+.link {
+    display:inline-block;
+    margin: 0.2px;
+} 
+.link a {
+    display:block;
+    margin: 0.2px;
+}
+
+.result-box {
+    padding: 10px 10px;
+    position: center;
+    max-width: 305px;
+    transform: translate(0, 0%);
+    border-radius: 8px;
+    background-color: #ededed;
+}
+.result-box:hover {
+    background-color: #e4e3e3;
+}
+.result-box:active {
+    background-color: #cdcdcd;
+}
+.result-box {
+    transition-duration: 0.4s;
+}
+
+.copied {
+    border-radius: 1em;
+    padding: 1em;
+    position: center;
+    color: #bd2222;
+    top: 50%;
+    left: 50%;
+    margin: 85px;
+}
+
+
+.input {
+    font: 15px Gilroy;
+    white-space: nowrap;
+    line-height: 20px;
+    padding: 8px 70px;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 2px;
+    border: 2px solid #E9E9E9;
+    transition-duration: 0.4s;
+}
+.input:hover {
+    border-color: #d7d7d7;
+}
+.input:focus {
+    outline: none;
+    border-color: #7e0000;
+}
+
+.button {
+    font: 15px Gilroy;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 20px;
+    padding: 8px 102px;
+    border-radius: 4px;
+    user-select: none;
+    color: #fff;
+    background: #7e0000;
+    margin: 2px;
+    border: 0;
+}
+.button:hover {
+    background-color: #7e0000;
+    color: white;
+}
+.button:active {
+    background-color: #7e0000;
+    color: white;
+}
+.button-copy:hover {
+    background-color: #f6f6f6;
+    color: rgb(0, 0, 0);
+}
+.button-copy:active {
+    background-color: #eeeeee;
+    color: rgb(40, 40, 40);
+}
+.button, .button-copy {
+    transition-duration: 0.4s;
+}
+
+.button-copy {
+    font: 15px Gilroy;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 20px;
+    padding: 8px 117px;
+    border-radius: 4px;
+    user-select: none;
+    color: rgb(0, 0, 0);
+    background: 0;
+    margin: 2px;
+    border: 0;
+}
+
+
+p {
+    color: rgba(0,0,0,0.6);
+text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+font-size: 26px;
+margin-left: 6%; 
+text-align: center;
+text-decoration: none;
+margin: 0;
+padding-top: 16px; 
 }
