@@ -14,7 +14,9 @@ header {
     z-index: 999
 }
 
+body {
 
+}
 
 .headerIMG {
     position: relative;
@@ -40,12 +42,19 @@ header {
 .menu {
     display: flex;
     height: 60px;
-    width: 400px;
+    width: 600px;
     float: right;
     margin-right: 60px;
     margin-top: 5px;
     z-index: 999
 }
+
+.element2 {
+    display: block;
+
+}
+
+
 
 .menu-elements:hover{
     color: #d00000;
@@ -155,6 +164,11 @@ footer{
 
     }
 
+    .element2 {
+        display: block;
+    
+    }
+
 
     .TwoText {
         width: 370px;
@@ -164,6 +178,15 @@ footer{
     .menu {
         background-color: black;
         margin-top: 0px;
+
+    }
+
+    .menu-elements {
+        font-size: medium;
+    }
+
+    .menu-elements:hover {
+        font-size: medium;
     }
 
 

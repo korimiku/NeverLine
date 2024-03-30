@@ -1,6 +1,7 @@
 let btnDownload = document.querySelector(".element1")
 let btnChangeLog = document.querySelector(".element2")
 let btnFunctions = document.querySelector(".element3")
+let btnConvert = document.querySelector(".element4")
 
 btnDownload.addEventListener("click", function() {
     animeAndRedirect(btnDownload, "https://t.me/NeverLineClient");
@@ -10,6 +11,9 @@ btnChangeLog.addEventListener("click", function() {
 });
 btnFunctions.addEventListener("click", function() {
     animeAndRedirect(btnFunctions, "pages/functions.html");
+});
+btnConvert.addEventListener("click", function() {
+    animeAndRedirect(btnConvert, "pages/convert.html");
 });
 
 function animeAndRedirect(button, redirect) {
