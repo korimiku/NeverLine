@@ -201,11 +201,17 @@ A:hover {
 
 p {
     color: rgba(0,0,0,0.6);
-text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
-font-size: 26px;
-margin-left: 6%; 
-text-align: center;
-text-decoration: none;
-margin: 0;
-padding-top: 16px; 
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    font-size: 26px;
+    margin-left: 6%; 
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 16px; 
+}
+
+@media(max-width: 500px) {
+    .btn-exit {
+        margin-right: 130px;
+    }
 }
